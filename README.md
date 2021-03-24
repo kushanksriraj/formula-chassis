@@ -1,2 +1,3 @@
-# formula-chassis
-Created with CodeSandbox
+# Chassis
+
+A component library of **Formula**
