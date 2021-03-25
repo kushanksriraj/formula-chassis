@@ -1,10 +1,14 @@
+import "./chassis.css";
 import "./styles.css";
+import { Nav, Sidebar, Home, View } from "./Components";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      testing
+      <Nav />
+      <Sidebar />
+      <Home />
+      {/* <View /> */}
     </div>
   );
 }
