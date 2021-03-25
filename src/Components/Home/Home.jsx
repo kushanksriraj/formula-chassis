@@ -1,3 +1,11 @@
+import "../../chassis.css";
+import "./home.css";
+
 export const Home = () => {
-  return <main>This is the default home section.</main>;
+  return (
+    <main>
+      <div className="heading__2">Chassis</div>
+      This is the default home section.
+    </main>
+  );
 };
