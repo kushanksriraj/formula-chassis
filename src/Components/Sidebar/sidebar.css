@@ -9,7 +9,23 @@ aside {
   align-items: center;
   justify-content: center;
   /* padding-left: 50px; */
+  position: fixed;
+  left: 0;
+  top: 55px;
+  width: 400px;
+  height: 100vh;
 }
+
+
+@media screen and (max-width: 760px) {
+  aside {
+    position: static;
+    width: 100%;
+    height: fit-content;
+    padding-top: 70px;
+  }  
+}
+
 
 .heading {
   margin-bottom: 1rem;

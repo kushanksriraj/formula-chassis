@@ -1,19 +1,8 @@
-/* .App {
-  margin: auto;
-  display: grid;
-  grid-template-rows: 60px auto;
-  grid-template-columns: 400px auto;
-  grid-template-areas:
-    "nav nav"
-    "aside main";
-  height: 100vh;
-} */
-
 @media screen and (min-width: 768px) {
   .App {
     margin: auto;
     display: grid;
-    grid-template-rows: 60px auto;
+    grid-template-rows: 55px auto;
     grid-template-columns: 400px auto;
     grid-template-areas:
       "nav nav"
@@ -21,5 +10,4 @@
     height: 100vh;
   }
 }
-
 
