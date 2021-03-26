@@ -53,6 +53,16 @@ export const Card = () => {
           <div className="card-text-overlay">50% off!</div>
         </div>
       </div>
+       
+      <div className="heading__3">Horizontal card</div>
+      <div className="preview">
+      <div className="card card-horizontal">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis libero
+        voluptas dolorum ipsa doloribus! Necessitatibus aliquid iusto unde iure
+        laboriosam sunt magnam alias ex cum. Eum quae tenetur exercitationem.
+      </div>
+      </div>
+    
     </div>
   );
 };

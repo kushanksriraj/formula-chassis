@@ -296,6 +296,10 @@ section {
   padding-inline-start: 0;
 }
 
+.list__spaced > li {
+  margin: 0 1rem;
+}
+
 .list__stacked {
   list-style: none;
   padding-inline-start: 0;
