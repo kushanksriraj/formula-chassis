@@ -1,5 +1,5 @@
 import { v4 } from "uuid";
-import { Avatar, Badge, Button, Card, Image, Input, List, Navigation, Modal, Ratings, Slider, SimpleGrid,TextUtil } from "./Components/LibComponents";
+import { Avatar, Badge, Button, Card, Image, Input, List, Navigation, Modal, Ratings, Slider, SimpleGrid, TextUtil, Toast } from "./Components/LibComponents";
 
 export const componentList = [
   {
@@ -78,6 +78,12 @@ export const componentList = [
     id: v4(),
     name: "TEXT UTILITIES",
     component: TextUtil,
+    selected: false
+  },
+  {
+    id: v4(),
+    name: "TOAST",
+    component: Toast,
     selected: false
   },
 ];

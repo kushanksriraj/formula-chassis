@@ -16,25 +16,18 @@ export const TextUtil = () => {
 
       <div className="heading__3">Small text</div>
       <div className="preview">
-      <span className="txt-small">
-        This text goes small.
-      </span>
+        <span className="txt-small">This text goes small.</span>
       </div>
 
       <div className="heading__3">Grey text</div>
       <div className="preview">
-      <span className="txt-grey">
-        This text is grey.
-      </span>
+        <span className="txt-grey">This text is grey.</span>
       </div>
 
       <div className="heading__3">Center text</div>
       <div className="preview">
-      <div className="txt-center">
-        This text is in center.
+        <div className="txt-center">This text is in center.</div>
       </div>
-      </div>
-
     </div>
   );
 };

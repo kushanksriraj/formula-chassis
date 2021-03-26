@@ -11,3 +11,4 @@ export { Ratings } from "./Ratings/Ratings";
 export { Slider } from "./Slider/Slider";
 export { SimpleGrid } from "./SimpleGrid/SimpleGrid";
 export { TextUtil } from "./TextUtil/TextUtil";
+export { Toast } from "./Toast/Toast";
