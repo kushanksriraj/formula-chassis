@@ -2,3 +2,9 @@ main {
   grid-area: main;
   padding: 1rem;
 }
+
+@media screen and (max-width: 760px) {
+  main {
+    padding-top: 60px;
+  }
+}
