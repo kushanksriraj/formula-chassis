@@ -1,8 +1,19 @@
 import "../../chassis.css";
 import "./sidebar.css";
+import { useEffect, useRef } from "react";
 
-export const Sidebar = ({ state, dispatch, setRoute, route }) => {
+export const Sidebar = ({
+  state,
+  dispatch,
+  setRoute,
+  route,
+  slider,
+  setSlider
+}) => {
+  const hRef = useRef(null);
+
   const onClickHandler = (id) => {
+    setSlider(false);
     setRoute("view");
     dispatch({
       type: "SELECT",
@@ -12,13 +23,23 @@ export const Sidebar = ({ state, dispatch, setRoute, route }) => {
     });
   };
 
+  useEffect(() => {
+    if (slider) {
+      hRef.current.style.width = "400px";
+    } else {
+      hRef.current.style.width = "";
+    }
+  }, [hRef, slider]);
+
   return (
-    <aside>
+    <aside ref={hRef}>
       <div
         className={route === "home" ? "heading selected" : "heading"}
         onClick={() => setRoute("home")}
       >
-        Getting started
+        <button className="btn-link no-border" onClick={() => setSlider(false)}>
+          Getting started
+        </button>
       </div>
       <ul className="list__stacked">
         {state.map(({ id, name, selected }) => {
@@ -28,7 +49,7 @@ export const Sidebar = ({ state, dispatch, setRoute, route }) => {
               className={selected && route === "view" ? "selected" : null}
               onClick={() => onClickHandler(id)}
             >
-              {name}
+              <button className="btn-link">{name}</button>
             </li>
           );
         })}
