@@ -119,6 +119,16 @@ section {
   font-size: 0.9rem;
 }
 
+.btn-secondary:hover {
+  background-color: #1f293767;
+}
+
+
+.btn-secondary:focus {
+  outline: none;
+  background-color: var(--color-1);
+}
+
 .btn-primary:hover {
   color: #1f2937;
   background-color: #f87171;
@@ -131,34 +141,41 @@ section {
 }
 
 .btn-link {
-  border: 1px solid var(--color-1);
+  border: none;
   background-color: inherit;
-  color: red;
-  text-decoration: underline;
-  border-radius: 5px;
-  width: 70px;
-  height: 30px;
+  color: var(--color-1);
+  /* text-decoration: underline; */
+  /* border-radius: 5px; */
+  /* width: 70px; */
+  /* height: 30px; */
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .btn-link:hover {
-  border: 1px solid #1f2937;
-  text-decoration-color: #1f2937;
+  /* border: 1px solid #1f2937; */
+  font-weight: bold;
 }
 
 .btn-link:focus {
   outline: none;
-  border: 1px solid var(--color-1);
-  text-decoration-color: inherit;
+  border-bottom: 4px solid var(--color-1);
 }
 
 .btn__icon {
-  background-color: inherit;
+  /* background-color: inherit; */
+  /* outline: none; */
+  border: none;
 }
 
 .btn__icon:hover {
   padding-bottom: 3px;
   border-bottom: 4px solid var(--color-2);
+}
+
+.dark:hover {
+  padding-bottom: 3px;
+  border-bottom: 4px solid var(--color-1);
 }
 
 .btn__icon:focus {
@@ -176,7 +193,9 @@ section {
   border-radius: 50%;
   border: 1px solid red;
   font-weight: 600;
-  padding: 2px 0 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-float:focus {

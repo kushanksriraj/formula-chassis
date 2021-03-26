@@ -64,6 +64,17 @@ export const Badge = () => {
           <div className="badge-icon">1</div>
         </div>
       </div>
+      <div className="heading__3">Badge on avatar</div>
+      <div className="preview">
+        <div>
+          <img
+            src="https://pbs.twimg.com/profile_images/1345269713287270401/wUWxEuxH_400x400.jpg"
+            alt="Avatar"
+            className="avatar-md"
+          />
+          <div className="badge-avatar">7</div>
+        </div>
+      </div>
       <div className="code">{/* add code section */}</div>
     </div>
   );
