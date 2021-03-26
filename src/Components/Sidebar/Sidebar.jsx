@@ -26,7 +26,7 @@ export const Sidebar = ({
   useEffect(() => {
     if (slider) {
       // hRef.current.style.maxWidth = "400px";
-      hRef.current.style.width = "80%";
+      hRef.current.style.width = "400px";
     } else {
       hRef.current.style.width = "";
     }
