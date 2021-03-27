@@ -46,14 +46,14 @@ export const componentList = [
   },
   {
     id: v4(),
-    name: "NAVIGATION",
-    component: Navigation,
+    name: "MODAL",
+    component: Modal,
     selected: false
   },
   {
     id: v4(),
-    name: "MODAL",
-    component: Modal,
+    name: "NAVIGATION",
+    component: Navigation,
     selected: false
   },
   {
@@ -70,12 +70,6 @@ export const componentList = [
   },
   {
     id: v4(),
-    name: "SIMPLIFIED GRID",
-    component: SimpleGrid,
-    selected: false
-  },
-  {
-    id: v4(),
     name: "TEXT UTILITIES",
     component: TextUtil,
     selected: false
@@ -88,3 +82,10 @@ export const componentList = [
   },
 ];
 
+
+// {
+//   id: v4(),
+//   name: "SIMPLIFIED GRID",
+//   component: SimpleGrid,
+//   selected: false
+// },

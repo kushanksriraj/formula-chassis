@@ -8,11 +8,10 @@ export const TextUtil = () => {
       <div className="description">Reusable text utilities.</div>
 
       <div className="heading-3">Headings</div>
-      <div className="preview">
-        <div className="heading-1">This is heading 1.</div>
-        <div className="heading-2">This is heading 2.</div>
-        <div className="heading-3">This is heading 3.</div>
-      </div>
+
+        <div className="heading-1" style={{marginLeft: '1rem'}}>This is heading 1.</div>
+        <div className="heading-2" style={{marginLeft: '0.5rem', border: 'none', paddingBottom : '0'}}>This is heading 2.</div>
+        <div className="heading-3" style={{marginLeft: '1rem'}}>This is heading 3.</div>
 
       <div className="heading-3">Small text</div>
       <div className="preview">
@@ -25,7 +24,7 @@ export const TextUtil = () => {
       </div>
 
       <div className="heading-3">Center text</div>
-      <div className="preview">
+      <div className="description">
         <div className="txt-center">This text is in center.</div>
       </div>
     </div>

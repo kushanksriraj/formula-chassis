@@ -16,12 +16,12 @@ export const Avatar = () => {
           className="avatar-sm"
         />
         <img
-          src="https://pbs.twimg.com/profile_images/1345269713287270401/wUWxEuxH_400x400.jpg"
+          src="https://pbs.twimg.com/profile_images/941690739901153280/uzn7oAUG_400x400.jpg"
           alt="Avatar"
           className="avatar-md"
         />
         <img
-          src="https://pbs.twimg.com/profile_images/1345269713287270401/wUWxEuxH_400x400.jpg"
+          src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg"
           alt="Avatar"
           className="avatar-big"
         />

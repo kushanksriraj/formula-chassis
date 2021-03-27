@@ -12,8 +12,8 @@ export const Image = () => {
       <div className="preview">
         <div className="img-container">
           <img
-            src="https://rukminim1.flixcart.com/image/416/416/kjuby4w0/television/x/q/y/oled65gxpta-lg-original-imafzbfxnutpvmxw.jpeg?q=70"
-            alt=""
+            src="https://picsum.photos/300/200"
+            alt="img-responsive"
             className="img-responsive"
           />
         </div>
@@ -22,8 +22,8 @@ export const Image = () => {
       <div className="preview">
         <div className="img-container">
           <img
-            src="https://rukminim1.flixcart.com/image/416/416/kjuby4w0/television/x/q/y/oled65gxpta-lg-original-imafzbfxnutpvmxw.jpeg?q=70"
-            alt=""
+            src="https://picsum.photos/200"
+            alt="img-round"
             className="img-responsive img-round"
           />
         </div>

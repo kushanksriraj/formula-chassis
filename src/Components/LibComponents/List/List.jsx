@@ -12,18 +12,18 @@ export const List = () => {
       <div className="heading-3">Spaced</div>
       <div className="preview">
         <ul className="list-spaced">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
         </ul>
       </div>
 
       <div className="heading-3">Stacked</div>
       <div className="preview">
         <ul className="list-stacked">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
         </ul>
       </div>
     </div>

@@ -12,7 +12,6 @@ export const Nav = ({ slider, setSlider }) => {
       transRef.current.style.transform = "none";
     }
   }, [transRef, slider]);
-  //  onClick={()=> window.open("someLink", "_blank")}
   return (
     <nav>
       <div className="logo-title-wrapper">
@@ -39,7 +38,7 @@ export const Nav = ({ slider, setSlider }) => {
         <button
           className="btn-icon"
           onClick={() =>
-            window.open("https://github.com/kushanksriraj", "_blank")
+            window.open("https://github.com/kushanksriraj/formula-chassis", "_blank")
           }
         >
           <div className="icon">

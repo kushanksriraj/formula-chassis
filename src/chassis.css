@@ -16,7 +16,7 @@ section {
   padding-bottom: 1rem;
   border-bottom: 5px solid red;
 }
-/* ------------------------------ */
+
 .avatar-sm {
   width: 30px;
   height: 30px;
@@ -34,7 +34,6 @@ section {
   height: 80px;
   border-radius: 50%;
 }
-/* ------------------------------ */
 
 .alert {
   width: fit-content;
@@ -54,8 +53,6 @@ section {
   background-color: #fef2f2;
 }
 
-/* ------------------------------ */
-
 .icon {
   width: 40px;
   height: 40px;
@@ -65,8 +62,6 @@ section {
   width: 100%;
   height: auto;
 }
-
-/* ------------------------------- */
 
 .badge-icon {
   font-size: 0.6em;
@@ -97,7 +92,6 @@ section {
   font-weight: bold;
   border-radius: 50%;
 }
-/* ------------------------------- */
 
 .btn-primary {
   background-color: #dc2626;
@@ -143,35 +137,22 @@ section {
   border: none;
   background-color: inherit;
   color: var(--color-1);
-  /* text-decoration: underline; */
-  /* border-radius: 5px; */
-  /* width: 70px; */
-  /* height: 30px; */
   font-size: 0.95rem;
   font-weight: 600;
-  /* font-weight: 600; */
 }
 
 .btn-link:hover {
-  /* border: 1px solid #1f2937; */
   font-weight: bold;
 }
 
 .btn-link:focus {
   outline: none;
   font-weight: 800;
-  /* border-bottom: 4px solid var(--color-1); */
 }
 
 .btn-icon {
   background-color: inherit;
-  /* outline: none; */
   border: none;
-}
-
-.btn-icon:hover {
-  /* padding-bottom: 3px; */
-  /* border-bottom: 4px solid var(--color-2); */
 }
 
 .dark:hover {
@@ -204,8 +185,6 @@ section {
   outline: none;
 }
 
-/* -------------------------------- */
-
 .card {
   width: 200px;
   height: 300px;
@@ -227,8 +206,6 @@ section {
   font-weight: bold;
 }
 
-/* not part of library */
-
 .title-product {
   margin-top: 0.5rem;
   font-size: 0.9rem;
@@ -239,7 +216,6 @@ section {
   margin-top: 0.5rem;
   font-weight: bold;
 }
-/* not part of library */
 
 .card-text-overlay {
   font-weight: bold;
@@ -259,14 +235,11 @@ section {
   height: 200px;
 }
 
-/* ------------------- */
-
 .img-responsive {
   width: 100%;
   height: auto;
 }
 
-/* not part of lib */
 .img-container {
   width: 300px;
 }
@@ -275,21 +248,17 @@ section {
   border-radius: 20px;
 }
 
-/* ------------------- */
-
 .textbox {
   width: 250px;
   padding: 0.5rem;
   resize: none;
   border-radius: 5px;
-  background-color: var(--color-2);
+  border: 4px solid var(--color-2);
 }
 
 .textbox:focus {
   outline: none;
 }
-
-/* ---------------- */
 
 .list-spaced {
   list-style: none;
@@ -314,8 +283,6 @@ section {
   margin-bottom: 0.5rem;
 }
 
-/* ---------------- */
-
 .nav-desktop {
   width: 100%;
 }
@@ -334,8 +301,6 @@ section {
   border: none;
 }
 
-/* ---------------------- */
-
 .modal-bg {
   width: 100vw;
   height: 100vh;
@@ -343,10 +308,10 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   display: none;
+  z-index: 2;
 }
 
 .modal {
@@ -357,9 +322,9 @@ section {
   border-radius: 5px;
   box-shadow: 0 0 10px #d1d5db;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
-
-/* ----------------------- */
 
 .grid-two {
   display: grid;
@@ -371,8 +336,6 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1rem;
 }
-
-/* ----------------------- */
 
 .heading-1 {
   font-weight: bold;
@@ -405,18 +368,25 @@ section {
   text-align: center;
 }
 
-/* ------------------- */
-
 .toast {
-  border: 1px solid var(--color-2);
+  border: 1px solid #00ffa2;
   padding: 0.5rem;
+  border-radius: 5px;
   width: fit-content;
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
   display: none;
 }
 
 .btn-hide-toast {
   margin-left: 1rem;
+  padding: 0 0.5rem;
   background-color: inherit;
-  border: 4px solid var(--color-2);
+  border: 4px solid #00ffa2;
   border-radius: 5px;
+}
+
+.btn-hide-toast:focus {
+  outline: none;
 }
