@@ -42,7 +42,7 @@ export const Sidebar = ({
           Getting started
         </button>
       </div>
-      <ul className="list__stacked">
+      <ul className="list-stacked">
         {state.map(({ id, name, selected }) => {
           return (
             <li

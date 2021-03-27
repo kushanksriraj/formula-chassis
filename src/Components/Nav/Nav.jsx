@@ -15,7 +15,7 @@ export const Nav = ({ slider, setSlider }) => {
   //  onClick={()=> window.open("someLink", "_blank")}
   return (
     <nav>
-      <div className="logo__title-wrapper">
+      <div className="logo-title-wrapper">
         <div
           ref={transRef}
           className={slider ? "icon logo glow" : "icon logo"}
@@ -35,9 +35,9 @@ export const Nav = ({ slider, setSlider }) => {
         <div className="title">Chassis</div>
       </div>
 
-      <div className="btns__social">
+      <div className="btns-social">
         <button
-          className="btn__icon"
+          className="btn-icon"
           onClick={() =>
             window.open("https://github.com/kushanksriraj", "_blank")
           }
@@ -58,7 +58,7 @@ export const Nav = ({ slider, setSlider }) => {
           </div>
         </button>
         <button
-          className="btn__icon"
+          className="btn-icon"
           onClick={() =>
             window.open("https://twitter.com/KushankSriraj", "_blank")
           }
@@ -75,7 +75,7 @@ export const Nav = ({ slider, setSlider }) => {
           </div>
         </button>
         <button
-          className="btn__icon"
+          className="btn-icon"
           onClick={() =>
             window.open("https://www.linkedin.com/in/kushank-sriraj/", "_blank")
           }

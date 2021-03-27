@@ -4,31 +4,31 @@ import "./button.css";
 export const Button = () => {
   return (
     <div className="wrapper">
-      <div className="heading__2">Button</div>
+      <div className="heading-2">Button</div>
       <div className="description">
         The button is a simple yet elegant clickable interface to let the user
         interact with it.
       </div>
-      <div className="heading__3">Primary button</div>
+      <div className="heading-3">Primary button</div>
       <div className="preview">
         <button className="btn-primary">Primary</button>
       </div>
 
-      <div className="heading__3">Secondary button</div>
+      <div className="heading-3">Secondary button</div>
       <div className="preview">
         <button className="btn-secondary">Secondary</button>
       </div>
 
-      <div className="heading__3">Link button</div>
+      <div className="heading-3">Link button</div>
       <div className="preview">
         <button className="btn-link">Link</button>
         <button className="btn-link">Follow</button>
         <button className="btn-link">Install</button>
       </div>
 
-      <div className="heading__3">Icon button</div>
+      <div className="heading-3">Icon button</div>
       <div className="preview">
-        <button className="btn__icon dark">
+        <button className="btn-icon dark">
           <div className="icon">
             <svg style={{ fill: "rgb(31, 31, 39)" }} viewBox="0 0 24 24">
               <g>
@@ -39,7 +39,7 @@ export const Button = () => {
         </button>
       </div>
 
-      <div className="heading__3">Floating action button</div>
+      <div className="heading-3">Floating action button</div>
       <div className="preview">
         <button className="btn-secondary">Show</button>
         <button className="btn-float">

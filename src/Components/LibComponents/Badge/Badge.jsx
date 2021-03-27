@@ -4,12 +4,12 @@ import "./badge.css";
 export const Badge = () => {
   return (
     <div className="wrapper">
-      <div className="heading__2">Badge</div>
+      <div className="heading-2">Badge</div>
       <div className="description">
         A badge is a counter shown on icons like cart, notification and avatars.
         It is also used to show online and offline status of a person.
       </div>
-      <div className="heading__3">Badge on icon</div>
+      <div className="heading-3">Badge on icon</div>
       <div className="preview">
         <div className="icon">
           <svg viewBox="0 0 24 24" style={{fill :"var(--color-1)"}}>
@@ -64,7 +64,7 @@ export const Badge = () => {
           <div className="badge-icon">1</div>
         </div>
       </div>
-      <div className="heading__3">Badge on avatar</div>
+      <div className="heading-3">Badge on avatar</div>
       <div className="preview">
         <div>
           <img

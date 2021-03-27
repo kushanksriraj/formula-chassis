@@ -32,10 +32,10 @@ aside {
   margin-left: -1rem;
 }
 
-.list__stacked {
+.list-stacked {
 }
 
-.list__stacked > li {
+.list-stacked > li {
   width: fit-content;
   font-size: 1rem;
   cursor: pointer;

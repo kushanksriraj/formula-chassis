@@ -13,7 +13,7 @@ nav {
   z-index: 2;
 }
 
-.logo__title-wrapper {
+.logo-title-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,13 +37,13 @@ nav {
   font-size: 1.4rem;
 }
 
-.btns__social {
+.btns-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.btn__icon {
+.btn-icon {
   margin-right: 1rem;
 }
 
@@ -51,7 +51,7 @@ nav {
   fill: white;
 }
 
-.btn__icon > .icon {
+.btn-icon > .icon {
   fill: white;
   width: 30px;
   height: 30px;

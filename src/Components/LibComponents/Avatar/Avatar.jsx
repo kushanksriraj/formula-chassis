@@ -4,7 +4,7 @@ import "./avatar.css";
 export const Avatar = () => {
   return (
     <div className="wrapper">
-      <div className="heading__2">Avatar</div>
+      <div className="heading-2">Avatar</div>
       <div className="description">
         An avatar is an icon or figure representing a person in a profile
         section or chat screens.
