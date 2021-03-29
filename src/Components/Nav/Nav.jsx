@@ -36,7 +36,7 @@ export const Nav = ({ slider, setSlider }) => {
 
       <div className="btns-social">
         <button
-          className="btn-icon"
+          className="btn-icon light"
           onClick={() =>
             window.open("https://github.com/kushanksriraj/formula-chassis", "_blank")
           }
@@ -57,7 +57,7 @@ export const Nav = ({ slider, setSlider }) => {
           </div>
         </button>
         <button
-          className="btn-icon"
+          className="btn-icon light"
           onClick={() =>
             window.open("https://twitter.com/KushankSriraj", "_blank")
           }
@@ -74,7 +74,7 @@ export const Nav = ({ slider, setSlider }) => {
           </div>
         </button>
         <button
-          className="btn-icon"
+          className="btn-icon light"
           onClick={() =>
             window.open("https://www.linkedin.com/in/kushank-sriraj/", "_blank")
           }
@@ -94,5 +94,3 @@ export const Nav = ({ slider, setSlider }) => {
     </nav>
   );
 };
-
-// <div>Icons made by <a href="" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

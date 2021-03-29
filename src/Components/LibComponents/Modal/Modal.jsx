@@ -12,15 +12,15 @@ export const Modal = () => {
       </div>
       
       <div className="preview">
-      <button class="btn-primary" onClick={() => setShow(true)}>
+      <button className="btn font-md btn-primary" onClick={() => setShow(true)}>
         Show
       </button>
       </div>
 
-      <div class="modal-bg" style={{display : show ? "flex" : "none"}}>
-        <div class="modal">
+      <div className="modal-bg" style={{display : show ? "flex" : "none"}}>
+        <div className="modal">
           <h2>Here! Need your attention!</h2>
-          <button class="btn-primary" 
+          <button className="btn font-md btn-secondary" 
           onClick={() => setShow(false)}>
             X
           </button>

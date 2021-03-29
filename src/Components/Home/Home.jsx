@@ -31,19 +31,49 @@ export const Home = () => {
           <div className="txt-small">A UI library of FORMULA</div>
         </div>
         <div className="description">
-          Chassis lets you build webapps faster by providing reusable
-          components.
+          Chassis allows you to design and build web Apps faster by providing a
+          range of reusable components.
+          <div className="description">
+            The name Chassis is inspired from the chassis of a motor vehicle. As
+            the vehicle is build on top of it's chassis, web Apps can be build
+            on top of this Chassis.
+          </div>
         </div>
         <div className="description">
-          To quickly get started, place the following code in the {"<head>"} tag
-          of your page.
+          To quickly get started, place the following code in the head section
+          of your HTML page.
+        </div>
+        <div className="description">
+          Made with code{" "}
+          <span role="img" aria-label="laptop emoji">
+            💻
+          </span>{" "}
+          by Kushank Sriraj.
         </div>
         Happy building!
         <embed
           src="https://carbon.now.sh/embed/PCp45gQMsvhiVEB1xB6G"
           type=""
-          className={styles['code-snippet']}
+          className={styles["code-snippet"]}
         />
+        <div className="heading-3">References</div>
+        <div className="description">
+          <p>
+            1. SVG Icons :{" "}
+            <span>
+              Icons made by Good Ware from{" "}
+              <a
+                href="https://www.flaticon.com/"
+                title="Flaticon"
+                rel="noreferrer"
+              >
+                flaticon.com
+              </a>
+            </span>
+          </p>
+          <p>2. Demo images: picsum.photos</p>
+          <p>3. Avatars : from twitter profiles</p>
+        </div>
       </div>
     </main>
   );

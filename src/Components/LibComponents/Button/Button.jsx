@@ -15,16 +15,16 @@ export const Button = () => {
       </div>
       <div className="heading-3">Primary button</div>
       <div className="preview">
-        <button className="btn-primary">Primary</button>
-        <button className="btn-primary">Submit</button>
-        <button className="btn-primary">Clear</button>
+        <button className="btn font-md btn-primary">Primary</button>
+        <button className="btn font-md btn-primary">Submit</button>
+        <button className="btn font-md btn-primary">Clear</button>
       </div>
 
       <div className="heading-3">Secondary button</div>
       <div className="preview">
-        <button className="btn-secondary">Secondary</button>
-        <button className="btn-secondary">Checkout</button>
-        <button className="btn-secondary">Add to cart</button>
+        <button className="btn font-md btn-secondary">Secondary</button>
+        <button className="btn font-md btn-secondary">Checkout</button>
+        <button className="btn font-md btn-secondary">Add to cart</button>
       </div>
 
       <div className="heading-3">Link button</div>
@@ -99,10 +99,10 @@ export const Button = () => {
       <div className="heading-3">Floating action button</div>
       <div className="preview">
         <button
-          className="btn-secondary"
+          className="btn font-md btn-secondary"
           onClick={() => setShow((prev) => !prev)}
         >
-          Show
+          {show ? "Hide" : "Show"}
         </button>
         <button
           className="btn-float"
