@@ -26,9 +26,6 @@ export const Avatar = () => {
           className="avatar-big border-round"
         />
       </div>
-      <div className="code">
-        {/* add code section */}
-      </div>
     </div>
   );
 };

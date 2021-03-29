@@ -8,7 +8,6 @@
    3.3 Card
 */
 
-
 /* 
  // Global styles 
 */
@@ -413,10 +412,15 @@ button {
   outline: none;
 }
 
-
 /* Not part of lib */
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.code-snippet {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
 }
