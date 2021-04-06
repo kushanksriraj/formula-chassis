@@ -11,13 +11,13 @@ export const Toast = () => {
         Toast message or snackbar is used to give some feedback to the user.
       </div>
 
-      <button class="btn font-md btn-primary" onClick={() => setShow(true)}>
+      <button className="btn font-md btn-primary" onClick={() => setShow(true)}>
         Show
       </button>
 
-      <div class="toast" style={{ display: show ? "flex" : "none" }}>
+      <div className="toast" style={{ display: show ? "flex" : "none" }}>
         You've got a message!
-        <button class="btn-hide-toast" onClick={() => setShow(false)}>
+        <button className="btn-hide-toast" onClick={() => setShow(false)}>
           X
         </button>
       </div>

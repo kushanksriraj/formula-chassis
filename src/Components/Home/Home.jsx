@@ -43,25 +43,25 @@ export const Home = () => {
           To quickly get started, place the following code in the head section
           of your HTML page.
         </div>
-        <div className="description">
-          Made with code{" "}
-          <span role="img" aria-label="laptop emoji">
-            💻
-          </span>{" "}
-          by Kushank Sriraj.
-        </div>
-        Happy building!
         <embed
           src="https://carbon.now.sh/embed/PCp45gQMsvhiVEB1xB6G"
           type=""
           className={styles["code-snippet"]}
         />
+        <div className="description">
+          Made with code
+          <span role="img" aria-label="laptop emoji">
+            💻 
+          </span> 
+           by Kushank Sriraj.
+        </div>
+        Happy building!
         <div className="heading-3">References</div>
         <div className="description">
           <p>
-            1. SVG Icons :{" "}
+            1. SVG Icons :
             <span>
-              Icons made by Good Ware from{" "}
+              Icons made by Good Ware from
               <a
                 href="https://www.flaticon.com/"
                 title="Flaticon"

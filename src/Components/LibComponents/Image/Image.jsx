@@ -22,7 +22,7 @@ export const Image = () => {
       <div className="preview">
         <div className="img-container">
           <img
-            src="https://picsum.photos/200"
+            src="https://picsum.photos/300/200"
             alt="img-round"
             className="img-responsive img-round"
           />
