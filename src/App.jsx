@@ -9,8 +9,9 @@ const switchComponentReducer = (state, action) => {
     case "SELECT":
       return [
         ...state.map((comp) =>
-          comp.id === action.payload.id
-            ? { ...comp, selected: true }
+          comp.id === action.payload.id ? 
+          { ...comp, selected: true }
+          
             : { ...comp, selected: false }
         )
       ];
