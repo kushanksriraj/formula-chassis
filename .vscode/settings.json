@@ -1,3 +1,11 @@
 {
-    "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    ".vscode": true,
+    ".gitignore": true,
+    "package-lock.json": true,
+    "README.md": true,
+    "node_modules": true,
+    "package.json": true
+  }
 }

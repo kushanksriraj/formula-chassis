@@ -1,2 +1,14 @@
-@import url(./default.css);
+.avatar-small {
+  width: 2rem;
+  height: 2rem;
+}
 
+.avatar-mid {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-big {
+  width: 4rem;
+  height: 4rem;
+}

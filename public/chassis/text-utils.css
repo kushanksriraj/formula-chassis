@@ -1,0 +1,42 @@
+.text-bold {
+  font-weight: bold;
+}
+
+.text-grey {
+  color: var(--color-6);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.para-normal {
+  margin: var(--margin-2);
+  padding: var(--padding-2);
+}
+
+.para-big {
+  margin: var(--margin-4);
+  padding: var(--padding-4);
+}
+
+.heading-1 {
+  font-weight: bold;
+  font-size: var(--font-8);
+  margin: var(--margin-2) 0;
+}
+
+.heading-2 {
+  font-weight: bold;
+  font-size: var(--font-6);
+  margin: var(--margin-2) 0;
+}
+
+.heading-3 {
+  font-weight: bold;
+  font-size: var(--font-4);
+  margin: var(--margin-4);
+  margin-bottom: var(--margin-2) 0;
+}
+
+

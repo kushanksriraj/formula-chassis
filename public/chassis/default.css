@@ -1,10 +1,255 @@
 * {
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --color-1: 
+:root {
+  --color-1: #1f1f27;
+  --color-2: #f3f4f6;
+  --color-3: #dc2626;
+  --color-4: #ff0000;
+  --color-5: #008000;
+  --color-6: #808080;
+  --color-7: #d1d5db;
+  --color-8: #1f1f2718;
+
+  --padding-1: 0.25rem;
+  --padding-2: 0.5rem;
+  --padding-3: 0.75rem;
+  --padding-4: 1rem;
+  --padding-5: 1.25rem;
+  --padding-6: 1.5rem;
+  --padding-7: 1.75rem;
+  --padding-8: 2rem;
+
+  --margin-1: 0.25rem;
+  --margin-2: 0.5rem;
+  --margin-3: 0.75rem;
+  --margin-4: 1rem;
+  --margin-5: 1.25rem;
+  --margin-6: 1.5rem;
+  --margin-7: 1.75rem;
+  --margin-8: 2rem;
+
+  --font-1: 0.5rem;
+  --font-2: 0.75rem;
+  --font-3: 0.85rem;
+  --font-4: 1rem;
+  --font-5: 1.25rem;
+  --font-6: 1.5rem;
+  --font-7: 1.75rem;
+  --font-8: 2rem;
+}
+
+/**
+* Padding util classes
+*/
+
+.p-1 {
+  padding: var(--padding-1);
+}
+
+.p-2 {
+  padding: var(--padding-2);
+}
+
+.p-3 {
+  padding: var(--padding-3);
+}
+
+.p-4 {
+  padding: var(--padding-4);
+}
+
+.p-5 {
+  padding: var(--padding-5);
+}
+
+.p-6 {
+  padding: var(--padding-6);
+}
+
+.p-7 {
+  padding: var(--padding-7);
+}
+
+.p-8 {
+  padding: var(--padding-8);
+}
+
+/**
+* Margin util classes
+*/
+
+.m-1 {
+  margin: var(--margin-1);
+}
+
+.m-2 {
+  margin: var(--margin-2);
+}
+
+.m-3 {
+  margin: var(--margin-3);
+}
+
+.m-4 {
+  margin: var(--margin-4);
+}
+
+.m-5 {
+  margin: var(--margin-5);
+}
+
+.m-6 {
+  margin: var(--margin-6);
+}
+
+.m-7 {
+  margin: var(--margin-7);
+}
+
+.m-8 {
+  margin: var(--margin-8);
+}
+
+/**
+* Color util classes
+*/
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-3 {
+  color: var(--color-3);
+}
+
+.color-4 {
+  color: var(--color-4);
+}
+
+.color-5 {
+  color: var(--color-5);
+}
+
+.color-6 {
+  color: var(--color-6);
+}
+
+.color-7 {
+  color: var(--color-7);
+}
+
+.color-8 {
+  color: var(--color-8);
+}
+
+/**
+* Background color util classes
+*/
+
+.bg-color-1 {
+  background-color: var(--color-1);
+}
+
+.bg-color-2 {
+  background-color: var(--color-2);
+}
+
+.bg-color-3 {
+  background-color: var(--color-3);
+}
+
+.bg-color-4 {
+  background-color: var(--color-4);
+}
+
+.bg-color-5 {
+  background-color: var(--color-5);
+}
+
+.bg-color-6 {
+  background-color: var(--color-6);
+}
+
+.bg-color-7 {
+  background-color: var(--color-7);
+}
+
+.bg-color-8 {
+  background-color: var(--color-8);
+}
+
+/**
+* Font size util classes
+*/
+
+.font-1 {
+  font-size: var(--font-1);
+}
+
+.font-2 {
+  font-size: var(--font-2);
+}
+
+.font-3 {
+  font-size: var(--font-3);
+}
+
+.font-4 {
+  font-size: var(--font-4);
+}
+
+.font-5 {
+  font-size: var(--font-5);
+}
+
+.font-6 {
+  font-size: var(--font-6);
+}
+
+.font-7 {
+  font-size: var(--font-7);
+}
+
+.font-8 {
+  font-size: var(--font-8);
+}
+
+/**
+* Global styles
+*/
+
+button {
+  cursor: pointer;
+}
+
+.border-round {
+  border-radius: 50%;
+}
+
+.center-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spaced-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-shadow-1 {
+  box-shadow: 0px 0px 10px var(--color-8);
+}
+
+.border-1 {
+  border: 3px solid var(--color-2);
 }

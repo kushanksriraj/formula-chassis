@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, Avatar } from "./pages";
+import { Home, Avatar, Badge } from "./pages";
 import { Navbar, Sidebar } from "./components";
 
 export default function App() {
@@ -8,10 +8,14 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Sidebar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/avatar" element={<Avatar />} />
-      </Routes>
+
+      <div className="wrapper">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/avatar" element={<Avatar />} />
+          <Route path="/badge" element={<Badge />} />
+        </Routes>
+      </div>
     </div>
   );
 }

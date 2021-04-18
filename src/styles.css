@@ -1,0 +1,13 @@
+@import url(../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+
+.App {
+   height: 100vh;
+}
+
+
+@media screen and (min-width: 721px) {
+  .wrapper {
+    max-width: 62.5rem;
+    margin: auto;
+  }
+}
