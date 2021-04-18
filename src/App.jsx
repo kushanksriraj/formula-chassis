@@ -6,16 +6,12 @@ import { Navbar, Sidebar } from "./components";
 export default function App() {
   return (
     <div className="App">
-      
-      <Navbar/>
-      <Sidebar/>
-
+      <Navbar />
+      <Sidebar />
       <Routes>
-      {/* Main section */}
-        <Route path="/" element={<Home />}/>
-        <Route path="/avatar" element={<Avatar />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/avatar" element={<Avatar />} />
       </Routes>
-
     </div>
   );
 }
