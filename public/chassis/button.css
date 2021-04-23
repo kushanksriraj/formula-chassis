@@ -1,0 +1,47 @@
+.btn {
+  display: inline-block;
+  border: none;
+  flex-shrink: 0;
+}
+
+.btn:focus {
+  outline-color: var(--color-1);
+}
+
+.btn:active {
+  outline: 3px solid var(--color-1);
+}
+
+.btn-small {
+  height: 2rem;
+}
+
+.btn-mid {
+  height: 2.5rem;
+}
+
+.btn-big {
+  height: 3rem;
+}
+
+.icon-btn {
+}
+
+.icon-btn:focus {
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-color: var(--color-1);
+  cursor: pointer;
+}
+
+.link:active {
+  outline-style: dotted;
+  outline-width: thin;
+}
+
+.link:focus {
+  outline-style: dotted;
+  outline-width: thin;
+}

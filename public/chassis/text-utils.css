@@ -20,7 +20,7 @@
   padding: var(--padding-4);
 }
 
-.heading-1 {
+.heading-1 {  
   font-weight: bold;
   font-size: var(--font-8);
   margin: var(--margin-2) 0;

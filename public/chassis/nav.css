@@ -1,0 +1,8 @@
+.toggle {
+  display: none;
+  top: 3.125rem;
+}
+
+.toggler:focus ~ .toggle {
+  display: flex;
+}

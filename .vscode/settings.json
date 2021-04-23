@@ -8,5 +8,6 @@
     "node_modules": true,
     "package.json": true
   },
-  "eslint.nodePath": "C:/Users/kusha/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/lib/node_modules"
+  "eslint.nodePath": "C:/Users/kusha/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/lib/node_modules",
+  "diffEditor.wordWrap": "on"
 }
