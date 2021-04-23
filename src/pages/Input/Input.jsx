@@ -34,19 +34,33 @@ export const Input = () => {
         <div>
           <label
             className="input-label m-v-2 text-bold color-1 font-4"
-            htmlFor="input-id"
+            htmlFor="input-id-email"
           >
             Email
           </label>
           <input
             type="email"
-            id="input-id"
+            id="input-id-email"
             placeholder="you@yourcompany.com"
             className="input border-round-small border-1 color-1 p-2 w-5 font-4"
           />
           <div className="error-prompt font-3 m-h-1 m-v-2 text-bold color-3">
             Invalid email address!
           </div>
+        </div>
+      </div>
+      <div className="separator m-v-6 m-h-4" />
+      <div className="heading-3">Checkbox</div>
+      <div className="preview m-5">
+        <div>
+          <label className="text-bold color-1 font-4" htmlFor="input-id-check">
+            <input
+              type="checkbox"
+              id="input-id-check"
+              className="border-round-small border-1 color-1 p-2 m-h-4 font-4"
+            />
+            Include out of stock
+          </label>
         </div>
       </div>
     </div>

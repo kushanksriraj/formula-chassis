@@ -10,7 +10,9 @@ import {
   Navigation,
   Banners,
   Toast,
-  Input
+  Input,
+  List,
+  Modal,
 } from "./pages";
 import { Navbar, Sidebar } from "./components";
 
@@ -29,11 +31,12 @@ export default function App() {
           <Route path="/banners" element={<Banners />} />
           <Route path="/button" element={<Button />} />
           <Route path="/cards" element={<Cards />} />
+          <Route path="/input" element={<Input />} />
+          <Route path="/list" element={<List />} />
           <Route path="/navigation" element={<Navigation />} />
           <Route path="/text-utils" element={<TextUtils />} />
           <Route path="/toast" element={<Toast />} />
-          <Route path="/input" element={<Input />} />
-
+          <Route path="/modal" element={<Modal />} />
         </Routes>
       </div>
     </div>
