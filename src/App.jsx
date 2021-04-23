@@ -33,10 +33,11 @@ export default function App() {
           <Route path="/cards" element={<Cards />} />
           <Route path="/input" element={<Input />} />
           <Route path="/list" element={<List />} />
+          <Route path="/modal" element={<Modal />} />
           <Route path="/navigation" element={<Navigation />} />
           <Route path="/text-utils" element={<TextUtils />} />
           <Route path="/toast" element={<Toast />} />
-          <Route path="/modal" element={<Modal />} />
+          
         </Routes>
       </div>
     </div>

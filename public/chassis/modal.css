@@ -1,20 +1,37 @@
 .modal-bg {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    z-index: 2;
-  }
-  
-  .modal {
-      background-color: white;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 2;
+}
+
+.modal {
+  background-color: white;
+}
+
+.modal-small {
+  height: 20rem;
+  width: 20rem;
+}
+
+.modal-large {
+  height: 50rem;
+  width: 50rem;
+}
+
+@media screen and (max-width: 720px) {
+  .modal-small {
+    height: 20rem;
+    width: 15rem;
   }
 
   .modal-large {
-      height: 50rem;
-      width: 50rem;
+    height: 30rem;
+    width: 20rem;
   }
+}

@@ -6,7 +6,7 @@ export const ModalLarge = ({ show, setShow }) => {
       className="modal-bg bg-color-8"
       style={{ display: show ? "flex" : "none" }}
     >
-      <div className="modal modal-large pos-rel p-4">
+      <div className="modal modal-large pos-rel p-4 box-shadow">
         <h2>Here! Need your attention!</h2>
 
         <button

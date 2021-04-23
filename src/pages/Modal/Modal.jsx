@@ -28,7 +28,10 @@ export const Modal = () => {
       <div className="separator m-v-8 m-h-4" />
       <div className="heading-3">Large</div>
       <div className="preview m-5 flex justify-center">
-        <button className="btn color-1 bg-color-2 font-3 text-bold p-v-2 p-h-4 border-round-small" onClick={() => setShowLarge(true)}>
+        <button
+          className="btn color-1 bg-color-2 font-3 text-bold p-v-2 p-h-4 border-round-small"
+          onClick={() => setShowLarge(true)}
+        >
           Show
         </button>
         <ModalLarge show={showLarge} setShow={setShowLarge} />

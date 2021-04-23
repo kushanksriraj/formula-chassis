@@ -6,8 +6,8 @@ export const ModalSmall = ({ show, setShow }) => {
       className="modal-bg bg-color-8"
       style={{ display: show ? "flex" : "none" }}
     >
-      <div className="modal w-8 h-6 pos-rel p-4">
-        <h2>Here! Need your attention!</h2>
+      <div className="modal modal-small pos-rel p-4 box-shadow">
+        <div className="heading-3">Here! Need your attention!</div>
 
         <button
           className="btn bg-inherit pos-abs top-right m-3"
