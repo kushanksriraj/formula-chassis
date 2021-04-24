@@ -27,7 +27,7 @@ export const Navigation = () => {
       <div className="heading-3">Mobile</div>
       <div className="w-100 m-v-5 p-h-1">
         <nav className="w-7 bg-color-1 h-1-2 color-2 flex align-center pos-rel">
-          <div
+          <div        
             className="link p-2 outline-white-dotted m-h-4 toggler"
             tabIndex="0"
           >
@@ -49,6 +49,26 @@ export const Navigation = () => {
             </div>
           </div>
         </nav>
+      </div>
+      <div className="separator m-h-4 m-v-6"></div>
+      <div className="heading-3">Dropdown options</div>
+      <div className="preview m-6">
+        <div className="dropdown pos-rel">
+          <button className="btn color-1 bg-color-2 font-3 text-bold p-2 border-round-small">
+            Dropdown
+          </button>
+          <div className="dropdown-content">
+            <a href="#" className="link p-2">
+              Link 1
+            </a>
+            <a href="#" className="link p-2">
+              Link 2
+            </a>
+            <a href="#" className="link p-2">
+              Link 3
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
