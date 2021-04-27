@@ -319,6 +319,10 @@ button {
   flex-wrap: wrap;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 /**
 * Border and shadow
 */
