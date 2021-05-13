@@ -135,3 +135,13 @@
   margin-top: var(--margin-8);
   margin-bottom: var(--margin-8);
 }
+
+.m-h-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m-v-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}

@@ -87,6 +87,14 @@
   height: 25rem;
 }
 
+.h-fit {
+  height: fit-content;
+}
+
+.h-auto {
+  height: auto;
+}
+
 /**
 * Width
 */
@@ -125,6 +133,14 @@
 
 .w-8 {
   width: 25rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-fit {
+  width: fit-content;
 }
 
 /**
@@ -205,6 +221,10 @@
 
 .bg-inherit {
   background-color: inherit;
+}
+
+.bg-color-white {
+  background-color: #ffffff;
 }
 
 .bg-color-1 {
@@ -292,7 +312,12 @@ button {
 }
 
 .flex-col {
+  display: flex;
   flex-direction: column;
+}
+
+.flex-end {
+  justify-content: flex-end;
 }
 
 .align-center {
@@ -301,6 +326,11 @@ button {
 
 .justify-center {
   justify-content: center;
+}
+
+.place-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .space-around {
@@ -326,6 +356,13 @@ button {
 /**
 * Border and shadow
 */
+.border-debug {
+  border: 1px solid red;
+}
+
+.border-0 {
+  border: none;
+}
 
 .border-round {
   border-radius: 50%;
@@ -347,6 +384,10 @@ button {
   height: 0.0625rem;
   background-color: var(--color-8);
 }
+
+/**
+ * Positions
+ */
 
 .pos-rel {
   position: relative;
@@ -395,6 +436,23 @@ button {
   bottom: 0;
   right: 0;
 }
+
+/**
+ * z-index
+ */
+
+.z-sm {
+  z-index: 1;
+}
+
+.z-md {
+  z-index: 2;
+}
+
+.z-bg {
+  z-index: 3;
+}
+
 
 .outline-white-dotted {
   outline-color: var(--color-2);
