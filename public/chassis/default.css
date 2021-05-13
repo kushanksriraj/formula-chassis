@@ -453,7 +453,6 @@ button {
   z-index: 3;
 }
 
-
 .outline-white-dotted {
   outline-color: var(--color-2);
 }
@@ -475,4 +474,8 @@ button {
 
 .cur-point {
   cursor: pointer;
+}
+
+.overflow-hide {
+  overflow: hidden;
 }
