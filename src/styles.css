@@ -13,6 +13,11 @@
   max-width: 15.625rem;
 }
 
+.shade {
+  background-color: rgb(235, 235, 235);
+  opacity: 0.1;
+}
+
 /* Desktop */
 @media screen and (min-width: 721px) {
   .App {

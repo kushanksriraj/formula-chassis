@@ -23,7 +23,7 @@ export default function App() {
     <div className="App">
       <Navbar setShowSideBar={setShowSideBar} />
       <Sidebar setShowSideBar={setShowSideBar} showSideBar={showSideBar} />
-      <div className="wrapper">
+      <div className={showSideBar ? "wrapper shade" : "wrapper"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/avatar" element={<Avatar />} />
@@ -45,7 +45,6 @@ export default function App() {
   );
 }
 
-
 /**
  * Todos
  * home page
@@ -53,5 +52,4 @@ export default function App() {
  * image component
  * add slider and search box in input
  * your initials, name, github and linkedin
- * 
  */
