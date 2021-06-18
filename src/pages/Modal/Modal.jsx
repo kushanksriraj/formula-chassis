@@ -7,7 +7,7 @@ export const Modal = () => {
   const [showLarge, setShowLarge] = useState(false);
 
   return (
-    <div className="m-4 p-5 box-shadow border-1 h-100">
+    <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Modal</div>
       <div className="separator" />
       <div className="para-normal">

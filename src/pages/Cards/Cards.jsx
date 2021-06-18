@@ -1,6 +1,6 @@
 export const Cards = () => {
   return (
-    <div className="m-4 p-5 box-shadow border-1 h-100">
+    <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Cards</div>
       <div className="separator" />
       <div className="para-normal">

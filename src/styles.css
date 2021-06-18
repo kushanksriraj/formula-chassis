@@ -1,21 +1,31 @@
 @import url(../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
 
 .App {
+  padding-top: 3rem;
   min-height: 100vh;
 }
 
 .wrapper {
-  height: 90%;
+  padding: 1rem 0.75rem;
 }
 
 .preview {
   max-width: 15.625rem;
 }
 
+/* Desktop */
 @media screen and (min-width: 721px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+  }
+
   .wrapper {
-    max-width: 62.5rem;
-    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 5vw;
   }
 
   .preview {

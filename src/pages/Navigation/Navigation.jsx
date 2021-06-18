@@ -1,6 +1,6 @@
 export const Navigation = () => {
   return (
-    <div className="m-4 p-v-8 p-h-5 box-shadow border-1 h-100">
+    <div className="p-h-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Navigation</div>
       <div className="separator" />
       <div className="para-normal">
@@ -26,7 +26,7 @@ export const Navigation = () => {
       <div className="separator m-h-4 m-v-6"></div>
       <div className="heading-3">Mobile</div>
       <div className="w-100 m-v-5 p-h-1">
-        <nav className="w-7 bg-color-1 h-1-2 color-2 flex align-center pos-rel">
+        <nav className="max-w-7 bg-color-1 h-1-2 color-2 flex align-center pos-rel">
           <div        
             className="link p-2 outline-white-dotted m-h-4 toggler"
             tabIndex="0"
