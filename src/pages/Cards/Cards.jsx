@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const Cards = () => {
+  useTitle("Chassis | Cards");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Cards</div>
@@ -19,6 +23,15 @@ export const Cards = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/sW3NB4g5qFiyB8zkb7vj"
+          type=""
+          className="w-100 h-4"
+        />
+      </div>
+
       <div className="separator m-8" />
       <div className="heading-3">Horizontal cards</div>
       <div className="flex justify-center m-4">
@@ -31,6 +44,15 @@ export const Cards = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/2pcPiR3kQMGJlsdZlpVZ"
+          type=""
+          className="w-100 h-4"
+        />
+      </div>
+
       <div className="separator m-8" />
       <div className="heading-3">Badge on cards</div>
       <div className="flex justify-center m-4">
@@ -50,6 +72,14 @@ export const Cards = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/dvtVeMaGUEW2NvWwauP3"
+          type=""
+          className="w-100 h-7"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.css";
 import { useRef, useEffect } from "react";
-import { Logo } from "./Logo";
+import { Logo } from "../../common/Logo";
 
 export const ChassisLogo = ({ showSideBar }) => {
   const transRef = useRef(null);

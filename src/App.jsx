@@ -14,6 +14,7 @@ import {
   Input,
   List,
   Modal,
+  PageNotFound,
 } from "./pages";
 import { Navbar, Sidebar } from "./components";
 import { useState } from "react";
@@ -40,8 +41,8 @@ export default function App() {
           <Route path="/navigation" element={<Navigation />} />
           <Route path="/text-utils" element={<TextUtils />} />
           <Route path="/toast" element={<Toast />} />
-          
-          {/* Make a 404 page. */}
+
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
     </div>

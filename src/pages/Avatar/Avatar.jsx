@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const Avatar = () => {
+  useTitle("Chassis | Avatar");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Avatar</div>
@@ -25,6 +29,13 @@ export const Avatar = () => {
             className="avatar-big border-round"
           />
         </div>
+      </div>
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/HupR6IRoB6UYRa5Y2z00"
+          type=""
+          className="w-100 h-8"
+        />
       </div>
     </div>
   );

@@ -11,3 +11,4 @@ export { Input } from "./Input/Input";
 export { List } from "./List/List";
 export { Modal } from "./Modal/Modal";
 export { Image } from "./Image/Image";
+export { PageNotFound } from "./PageNotFound/PageNotFound";

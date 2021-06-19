@@ -1,7 +1,10 @@
 import styles from "./Home.module.css";
-import { Logo } from "../../components/Navbar/Logo";
+import { Logo } from "../../common/Logo";
+import { useTitle, useScrollToTop } from "../../common";
 
 export const Home = () => {
+  useTitle("Chassis | Home");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2 flex align-center m-h-4">
@@ -38,7 +41,7 @@ export const Home = () => {
       <div className="para-normal">Happy building!</div>
       <div className="m-v-2 m-h-4 font-semibold">References</div>
       <ol className="m-h-6 p-h-4">
-        <li>SVG Icons :Icons made by Good Ware fromflaticon.com</li>
+        <li>SVG Icons :flaticon and fontawesome</li>
         <li>Demo images: picsum.photos</li>
         <li>Avatars : from twitter profiles</li>
       </ol>

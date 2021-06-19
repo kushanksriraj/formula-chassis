@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const Badge = () => {
+  useTitle("Chassis | Badge");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Badge</div>
@@ -22,6 +26,13 @@ export const Badge = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/cb7zAvtUQNwOGHfc1gjl"
+          type=""
+          className="w-100 h-6"
+        />
       </div>
       <div className="separator m-h-4 m-v-6"></div>
       <div className="heading-3">Badge on avatar</div>
@@ -52,6 +63,13 @@ export const Badge = () => {
             <div className="badge-avatar badge-avatar-green"></div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/WdCJ23q5GnhsHa3oo04z"
+          type=""
+          className="w-100 h-8"
+        />
       </div>
     </div>
   );

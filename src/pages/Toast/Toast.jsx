@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const Toast = () => {
+  useTitle("Chassis | Toast");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Toast</div>
@@ -17,6 +21,15 @@ export const Toast = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/3BYRgXhTTKiUiEB0auC0"
+          type=""
+          className="w-100 h-5"
+        />
+      </div>
+
       <div className="separator m-v-8 m-h-4" />
       <div className="heading-3">Error toast</div>
       <div className="m-4">
@@ -28,6 +41,14 @@ export const Toast = () => {
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/fbIdTMMyf5vyFoCiPsap"
+          type=""
+          className="w-100 h-5"
+        />
       </div>
     </div>
   );

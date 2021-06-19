@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const Navigation = () => {
+  useTitle("Chassis | Navigation");
+  useScrollToTop();
   return (
     <div className="p-h-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Navigation</div>
@@ -23,11 +27,20 @@ export const Navigation = () => {
           </div>
         </nav>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/88rqd4xKFuUHGNhHGd4G"
+          type=""
+          className="w-100 h-7"
+        />
+      </div>
+
       <div className="separator m-h-4 m-v-6"></div>
       <div className="heading-3">Mobile</div>
       <div className="w-100 m-v-5 p-h-1">
         <nav className="max-w-7 bg-color-1 h-1-2 color-2 flex align-center pos-rel">
-          <div        
+          <div
             className="link p-2 outline-white-dotted m-h-4 toggler"
             tabIndex="0"
           >
@@ -50,6 +63,15 @@ export const Navigation = () => {
           </div>
         </nav>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/s7qVuH0ktUQ4PulQlPbl"
+          type=""
+          className="w-100 h-8"
+        />
+      </div>
+
       <div className="separator m-h-4 m-v-6"></div>
       <div className="heading-3">Dropdown options</div>
       <div className="preview m-6">
@@ -69,6 +91,13 @@ export const Navigation = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/ljpFHhYhMKdu9pv1pBVt"
+          type=""
+          className="w-100 h-8"
+        />
       </div>
     </div>
   );

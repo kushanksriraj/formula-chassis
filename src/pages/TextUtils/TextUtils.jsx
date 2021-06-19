@@ -1,4 +1,8 @@
+import { useScrollToTop, useTitle } from "../../common";
+
 export const TextUtils = () => {
+  useTitle("Chassis | Text utils");
+  useScrollToTop();
   return (
     <div className="p-5 box-shadow border-1 h-100 w-100">
       <div className="heading-2">Text utilities</div>
@@ -12,6 +16,15 @@ export const TextUtils = () => {
           <div className="heading-3">Heading 3</div>
         </div>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/0tDFs8m1u8DqNrFFNswr"
+          type=""
+          className="w-100 h-3"
+        />
+      </div>
+
       <div className="separator m-6" />
       <div className="heading-3">Text</div>
       <div className="flex justify-center">
@@ -21,6 +34,15 @@ export const TextUtils = () => {
           <div className="text-grey">Text grey</div>
         </div>
       </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/6NTN9w3ohwtanBmthckv"
+          type=""
+          className="w-100 h-3"
+        />
+      </div>
+
       <div className="separator m-6" />
       <div className="heading-3">Paragraph</div>
       <div className="flex justify-center">
@@ -39,6 +61,14 @@ export const TextUtils = () => {
             porro aut quia non suscipit eius ab officiis nulla!
           </div>
         </div>
+      </div>
+
+      <div className="flex justify-center m-v-8">
+        <embed
+          src="https://carbon.now.sh/embed/FEMm4icKLSNXGoiKskln"
+          type=""
+          className="w-100 h-7"
+        />
       </div>
     </div>
   );
