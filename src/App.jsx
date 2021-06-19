@@ -41,7 +41,6 @@ export default function App() {
           <Route path="/navigation" element={<Navigation />} />
           <Route path="/text-utils" element={<TextUtils />} />
           <Route path="/toast" element={<Toast />} />
-
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
