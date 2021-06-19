@@ -1,5 +1,7 @@
 .container {
   position: fixed;
+  top: 0;
+  bottom: 0;
   background-color: #ffffff;
   height: 100%;
   z-index: 10;
@@ -8,11 +10,12 @@
   transition: width ease 0.5s;
   overflow-x: hidden;
   width: 0;
-  /* min-width: none; */
+  padding: 2rem 0;
 }
 
 @media screen and (min-width: 721px) {
   .container {
+    padding: 0;
     position: static;
     z-index: auto;
     overflow-x: visible;
