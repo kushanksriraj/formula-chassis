@@ -63,6 +63,23 @@ export const Input = () => {
           </label>
         </div>
       </div>
+
+      <div className="separator m-v-6 m-h-4" />
+      <div className="heading-3">Slider</div>
+      <div className="preview m-5">
+        <div>
+          <label className="text-bold color-1 font-4" htmlFor="input-id-range">
+            <input
+              type="range"
+              id="input-id-range"
+              min="0"
+              max="100"
+              defaultValue="70"
+              className="cur-point"
+            />
+          </label>
+        </div>
+      </div>
     </div>
   );
 };
