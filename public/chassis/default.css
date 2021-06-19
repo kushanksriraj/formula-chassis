@@ -295,6 +295,14 @@
   font-size: var(--font-8);
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
 /**
 * Global styles
 */

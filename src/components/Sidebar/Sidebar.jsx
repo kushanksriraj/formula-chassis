@@ -17,6 +17,15 @@ export const Sidebar = ({ setShowSideBar, showSideBar }) => {
       <ul className={`${styles.ul} list`}>
         <NavLink
           className={styles.side}
+          to="/home"
+          activeClassName={styles.link__active}
+          onClick={() => setShowSideBar(false)}
+        >
+          Getting started
+        </NavLink>
+
+        <NavLink
+          className={styles.side}
           to="/avatar"
           activeClassName={styles.link__active}
           onClick={() => setShowSideBar(false)}
@@ -58,6 +67,15 @@ export const Sidebar = ({ setShowSideBar, showSideBar }) => {
           onClick={() => setShowSideBar(false)}
         >
           CARDS
+        </NavLink>
+
+        <NavLink
+          className={styles.side}
+          to="/image"
+          activeClassName={styles.link__active}
+          onClick={() => setShowSideBar(false)}
+        >
+          IMAGE
         </NavLink>
 
         <NavLink
