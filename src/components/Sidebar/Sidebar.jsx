@@ -10,10 +10,9 @@ export const Sidebar = ({ setShowSideBar, showSideBar }) => {
   return (
     <div
       ref={ref}
-      className={`${styles.container} box-shadow`}
-      style={{
-        width: showSideBar ? "80%" : "",
-      }}
+      className={`${styles.container} box-shadow ${
+        showSideBar ? styles.side__show : ""
+      }`}
     >
       <ul className={`${styles.ul} list`}>
         <NavLink

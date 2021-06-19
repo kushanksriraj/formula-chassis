@@ -21,7 +21,7 @@ export default function App() {
   const [showSideBar, setShowSideBar] = useState(false);
   return (
     <div className="App">
-      <Navbar setShowSideBar={setShowSideBar} />
+      <Navbar setShowSideBar={setShowSideBar} showSideBar={showSideBar} />
       <Sidebar setShowSideBar={setShowSideBar} showSideBar={showSideBar} />
       <div className={showSideBar ? "wrapper shade" : "wrapper"}>
         <Routes>
@@ -44,12 +44,3 @@ export default function App() {
     </div>
   );
 }
-
-/**
- * Todos
- * home page
- * navbar
- * image component
- * add slider and search box in input
- * your initials, name, github and linkedin
- */

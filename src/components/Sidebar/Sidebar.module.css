@@ -13,6 +13,10 @@
   padding: 2rem 0;
 }
 
+.side__show {
+  width: 80%;
+}
+
 @media screen and (min-width: 721px) {
   .container {
     padding: 0;
@@ -21,11 +25,15 @@
     overflow-x: visible;
     width: 100%;
   }
+
+  .side__show {
+    width: 100%;
+  }
 }
 
 .ul {
   margin-top: 1rem;
-  top: 4rem;
+  top: 4.5rem;
   position: -webkit-sticky;
   position: sticky;
   height: max-content;

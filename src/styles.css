@@ -1,7 +1,7 @@
 @import url(../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
 
 .App {
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   min-height: 100vh;
 }
 
@@ -31,6 +31,11 @@
     justify-content: center;
     height: max-content;
     padding: 1rem 5vw;
+  }
+
+  .shade {
+    background-color: inherit;
+    opacity: 1;
   }
 
   .preview {
