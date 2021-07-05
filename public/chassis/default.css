@@ -1,0 +1,489 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #1f1f27;
+  --color-2: #f3f4f6;
+  --color-3: #dc2626;
+  --color-4: #ff0000;
+  --color-5: #008000;
+  --color-6: #808080;
+  --color-7: #d1d5db;
+  --color-8: #1f1f2718;
+
+  --padding-1: 0.25rem;
+  --padding-2: 0.5rem;
+  --padding-3: 0.75rem;
+  --padding-4: 1rem;
+  --padding-5: 1.25rem;
+  --padding-6: 1.5rem;
+  --padding-7: 1.75rem;
+  --padding-8: 2rem;
+
+  --margin-1: 0.25rem;
+  --margin-2: 0.5rem;
+  --margin-3: 0.75rem;
+  --margin-4: 1rem;
+  --margin-5: 1.25rem;
+  --margin-6: 1.5rem;
+  --margin-7: 1.75rem;
+  --margin-8: 2rem;
+
+  --font-1: 0.5rem;
+  --font-2: 0.75rem;
+  --font-3: 0.85rem;
+  --font-4: 1rem;
+  --font-5: 1.25rem;
+  --font-6: 1.5rem;
+  --font-7: 1.75rem;
+  --font-8: 2rem;
+}
+
+/**
+* Height
+*/
+
+.h-100 {
+  height: 100%;
+}
+
+.h-1 {
+  height: 3.125rem;
+}
+
+.h-1-2 {
+  height: 3.5rem;
+}
+
+.h-2 {
+  height: 6.25rem;
+}
+
+.h-3 {
+  height: 9.375rem;
+}
+
+.h-4 {
+  height: 12.5rem;
+}
+
+.h-5 {
+  height: 15.625rem;
+}
+
+.h-6 {
+  height: 18.75rem;
+}
+
+.h-7 {
+  height: 21.875rem;
+}
+
+.h-8 {
+  height: 25rem;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.h-auto {
+  height: auto;
+}
+
+/**
+* Width
+*/
+
+.w-100 {
+  width: 100%;
+}
+
+.w-1 {
+  width: 3.125rem;
+}
+
+.w-2 {
+  width: 6.25rem;
+}
+
+.w-3 {
+  width: 9.375rem;
+}
+
+.w-4 {
+  width: 12.5rem;
+}
+
+.w-5 {
+  width: 15.625rem;
+}
+
+.w-6 {
+  width: 18.75rem;
+}
+
+.w-7 {
+  width: 21.875rem;
+}
+
+.w-8 {
+  width: 25rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+/**
+* Max widths
+*/
+
+.max-w-1 {
+  max-width: 3.125rem;
+}
+
+.max-w-2 {
+  max-width: 6.25rem;
+}
+
+.max-w-3 {
+  max-width: 9.375rem;
+}
+
+.max-w-4 {
+  max-width: 12.5rem;
+}
+
+.max-w-5 {
+  max-width: 15.625rem;
+}
+
+.max-w-6 {
+  max-width: 18.75rem;
+}
+
+.max-w-7 {
+  max-width: 21.875rem;
+}
+
+.max-w-8 {
+  max-width: 25rem;
+}
+
+/**
+* Color util classes
+*/
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-3 {
+  color: var(--color-3);
+}
+
+.color-4 {
+  color: var(--color-4);
+}
+
+.color-5 {
+  color: var(--color-5);
+}
+
+.color-6 {
+  color: var(--color-6);
+}
+
+.color-7 {
+  color: var(--color-7);
+}
+
+.color-8 {
+  color: var(--color-8);
+}
+
+/**
+* Background color util classes
+*/
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-color-white {
+  background-color: #ffffff;
+}
+
+.bg-color-1 {
+  background-color: var(--color-1);
+}
+
+.bg-color-2 {
+  background-color: var(--color-2);
+}
+
+.bg-color-3 {
+  background-color: var(--color-3);
+}
+
+.bg-color-4 {
+  background-color: var(--color-4);
+}
+
+.bg-color-5 {
+  background-color: var(--color-5);
+}
+
+.bg-color-6 {
+  background-color: var(--color-6);
+}
+
+.bg-color-7 {
+  background-color: var(--color-7);
+}
+
+.bg-color-8 {
+  background-color: var(--color-8);
+}
+
+/**
+* Font size util classes
+*/
+
+.font-1 {
+  font-size: var(--font-1);
+}
+
+.font-2 {
+  font-size: var(--font-2);
+}
+
+.font-3 {
+  font-size: var(--font-3);
+}
+
+.font-4 {
+  font-size: var(--font-4);
+}
+
+.font-5 {
+  font-size: var(--font-5);
+}
+
+.font-6 {
+  font-size: var(--font-6);
+}
+
+.font-7 {
+  font-size: var(--font-7);
+}
+
+.font-8 {
+  font-size: var(--font-8);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+/**
+* Global styles
+*/
+
+button {
+  cursor: pointer;
+}
+
+/**
+* Flex classes
+*/
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.place-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-even {
+  justify-content: space-evenly;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/**
+* Border and shadow
+*/
+.border-debug {
+  border: 1px solid red;
+}
+
+.border-0 {
+  border: none;
+}
+
+.border-round {
+  border-radius: 50%;
+}
+
+.border-round-small {
+  border-radius: 0.3125rem;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 0.625rem var(--color-8);
+}
+
+.border-1 {
+  border: 0.1875rem solid var(--color-2);
+}
+
+.separator {
+  height: 0.0625rem;
+  background-color: var(--color-8);
+}
+
+/**
+ * Positions
+ */
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * z-index
+ */
+
+.z-sm {
+  z-index: 1;
+}
+
+.z-md {
+  z-index: 2;
+}
+
+.z-bg {
+  z-index: 3;
+}
+
+.outline-white-dotted {
+  outline-color: var(--color-2);
+}
+
+.outline-white-dotted:active {
+  outline-style: dotted;
+  outline-width: thin;
+}
+
+.outline-white-dotted:focus {
+  outline-style: dotted;
+  outline-width: thin;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.cur-point {
+  cursor: pointer;
+}
+
+.overflow-hide {
+  overflow: hidden;
+}
